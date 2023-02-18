@@ -1,5 +1,7 @@
 import React from "react"
-
+import Logo from './programmin-990x500.jpg';
+import Logo2 from './layanan.jpg';
+import Logo3 from './lep.jpg';
 // @notus-pro/react
 import Blogs8 from "@notus-pro/react/Blogs8"
 
@@ -14,7 +16,7 @@ const props = {
   },
   cards: [
     {
-      image: "https://demos.creative-tim.com/notus-pro-react/static/media/castle-1.180e8ed5.jpg",
+      image: Logo,
       title: "System Development",
       description:
         "Hizratech bersedia untuk merancang, menguji dan mengimplementasikan aplikasi perangkat lunak baru atau program sesuai dengan kebutuhan klien.",
@@ -27,7 +29,7 @@ const props = {
     //   link: { href: "#pablo" },
     },
     {
-      image: "https://demos.creative-tim.com/notus-pro-react/static/media/pawel-nolbert.6876e1e9.jpg",
+      image: Logo2,
       title: "Layanan Publik",
       description:
         "Hizratech siap untuk melayani klien dalam rangka pemenuhan kebutuhan pelayanan baik di bidang jasa, layanan maupun administratif.",
@@ -40,7 +42,7 @@ const props = {
     //   link: { href: "#pablo" },
     },
     {
-      image: "https://demos.creative-tim.com/notus-pro-react/static/media/twk-tt.cff2e507.jpg",
+      image: Logo3,
       title: "Jual Beli Perangkat Lunak dan Keras",
       description:
         "Hizratech juga menjual berbagai jenis barang perangkat lunak dan keras.",

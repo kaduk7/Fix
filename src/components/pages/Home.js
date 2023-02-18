@@ -11,6 +11,7 @@ import Why from '../Why';
 import Why2 from '../Why2';
 import Slider from '../Slider';
 import Footer2 from '../Footer2';
+import Homess from '../Homess';
 
 
 function Home() {
@@ -18,10 +19,12 @@ function Home() {
     <>
       <HeroSection />
       {/* <Skew /> */}
-      <Hizra />
+      <Homess />
+      {/* <Hizra /> */}
       <Whatoffer />
       {/* <Why /> */}
-      <Why2 />
+       {/* <Skew /> */}
+      <Why />
       <Slider />
       <Skew />
 

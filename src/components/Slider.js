@@ -1,7 +1,7 @@
 import React from "react";
 
 import Slider from 'react-slick';
-import Logo from './sketch.jpg';
+import Logo from './sma2.jpeg';
 
 
 import 'slick-carousel/slick/slick.css';
@@ -31,7 +31,7 @@ export default function Slide() {
               <h3 className="text-xl text-left mb-2 px-16 font-bold leading-normal text-lightBlue-700">
                 SMA A
                 </h3>
-                <img src={Logo} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
+                <img src={Logo} alt="..." className=" max-w-full h-auto align-middle border-none" />
               </div>
             
            
