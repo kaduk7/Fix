@@ -18,7 +18,7 @@ const settings = {
 export default function Slide() {
     return (
       <>
-        <div className="w-full text-left py-12 px-6 lg:w-full">
+        <div className="w-full text-center  lg:w-full">
           <h3 className="text-5xl mb-2 px-12 font-bold leading-normal text-lightBlue-700">
             MITRA KAMI
           </h3>
@@ -26,46 +26,44 @@ export default function Slide() {
         </div>
         <div className="mt-4 py-10  border-t border-blueGray-200 text-center ">
           <Slider {...settings}>
-            <div className="flex flex-wrap justify-center">
+            
               <div className="w-6/12 sm:w-4/12 px-4 ">
               <h3 className="text-xl text-left mb-2 px-16 font-bold leading-normal text-lightBlue-700">
                 SMA A
                 </h3>
                 <img src={Logo} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
               </div>
-            </div>
-            <div className="flex flex-wrap justify-center">
+            
+           
               <div className="w-6/12 sm:w-4/12 px-4 ">
               <h3 className="text-xl text-left mb-2 px-16 font-bold leading-normal text-orange-500">
                 SMA B
                 </h3>
                 <img src={Logo} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
               </div>
-            </div>
-            <div className="flex flex-wrap justify-center">
+            
+           
               <div className="w-6/12 sm:w-4/12 px-4 ">
               <h3 className="text-xl text-left mb-2 px-16 font-bold leading-normal text-emerald-500">
                 SMA C
                 </h3>
                 <img src={Logo} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
               </div>
-            </div>
-            <div className="flex flex-wrap justify-center">
+            
               <div className="w-6/12 sm:w-4/12 px-4 ">
               <h3 className="text-xl text-left mb-2 px-16 font-bold leading-normal text-indigo-500">
                 SMA D
                 </h3>
                 <img src={Logo} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
               </div>
-            </div>
-            <div className="flex flex-wrap justify-center">
+           
               <div className="w-6/12 sm:w-4/12 px-4 ">
               <h3 className="text-xl text-left mb-2 px-16 font-bold leading-normal text-black">
                 SMA E
                 </h3>
                 <img src={Logo} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
               </div>
-            </div>
+            
 
 
             {/* <div className="text-center mt-0">

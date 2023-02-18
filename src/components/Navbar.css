@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(243, 244, 245) 0%, rgb(236, 237, 238) 100%);
+  background: linear-gradient(90deg, rgb(186,217,253) 0%, rgb(104,162,253) 100%);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -50,7 +50,7 @@
 }
 
 .nav-links {
-  color: #0725d1;
+  color: #1354BD;
   display: flex;
   align-items: center;
   text-decoration: none;

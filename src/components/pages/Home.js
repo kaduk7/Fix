@@ -17,7 +17,7 @@ function Home() {
   return (
     <>
       <HeroSection />
-      <Skew />
+      {/* <Skew /> */}
       <Hizra />
       <Whatoffer />
       {/* <Why /> */}

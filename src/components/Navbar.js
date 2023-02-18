@@ -73,7 +73,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src={Logo} width="170px" dan height="70px"
+          <img src={Logo} width="180px" dan height="80px"
               alt="....." 
             />
             {/* <i class='fab fa-typo3' /> */}

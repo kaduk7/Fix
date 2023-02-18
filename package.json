@@ -15,6 +15,7 @@
     "classnames": "^2.3.2",
     "gulp": "^4.0.2",
     "gulp-append-prepend": "^1.0.9",
+    "lottie-react": "^2.3.1",
     "postcss": "^8.4.21",
     "prop-types": "^15.8.1",
     "react": "^16.13.1",
