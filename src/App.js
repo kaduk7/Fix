@@ -12,6 +12,7 @@ import Gallery from './components/pages/Gallery';
 import Ourservice from './components/pages/OurService';
 
 import FAQ from './components/pages/FAQ';
+import Official from './components/pages/Official';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path='/Gallery2' component={Gallery} />
           <Route path='/Service' component={Ourservice} />
           <Route path='/FAQ' component={FAQ} />
+          <Route path='/Official-partner' component={Official} />
         </Switch>
       </Router>
     </>

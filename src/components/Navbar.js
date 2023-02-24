@@ -82,10 +82,13 @@ function Navbar() {
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className='nav-item'>
+          <li className='nav-item '>
             <Link to='/' className='nav-links fas fa-home'  onClick={closeMobileMenu}>
             <i>  </i>
-               Home
+            <div className='josefin' >
+            Home
+            </div>
+               
             </Link>
           </li>
           <li
@@ -99,7 +102,10 @@ function Navbar() {
               onClick={closeMobileMenu}
             >
               <i>  </i>
-               About us <i className='fas fa-caret-down' />
+              <div className='josefin' >
+            About
+            </div>
+               <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
           </li>
@@ -115,7 +121,9 @@ function Navbar() {
               onClick={closeMobileMenu}
             >
               <i>  </i>
-              Our Service <i className='fas fa-caret-down' />
+              <div className='josefin' >
+            Our Service
+            </div> <i className='fas fa-caret-down' />
             </Link>
             {dropdown2 && <Dropdown2 />}
           </li>
@@ -127,17 +135,21 @@ function Navbar() {
               onClick={closeMobileMenu}
             >
               <i>  </i>
-              Gallery
+              <div className='josefin' >
+            Gallery
+            </div>
             </Link>
           </li>
           <li className='nav-item'>
             <Link
-              to='/products'
+              to='/'
               className='nav-links fas fa-user-friends'
               onClick={closeMobileMenu}
             >
               <i>  </i>
-              Official Partners
+              <div className='josefin' >
+            Official Partners
+            </div>
             </Link>
           </li>
           <li className='nav-item'>
@@ -147,7 +159,9 @@ function Navbar() {
               onClick={closeMobileMenu}
             >
               <i>  </i>
-              FAQ
+              <div className='josefin' >
+            FAQ
+            </div>
             </Link>
           </li>
           {/* <li>

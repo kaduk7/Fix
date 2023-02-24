@@ -1,7 +1,7 @@
 /*eslint-disable*/
 import React from "react";
 import { Link } from "react-router-dom";
-
+import './font.css';
 import Teams1 from "@notus-pro/react/Teams1";
 import Logo from './23.png';
 import Logo2 from './3.png';
@@ -17,7 +17,7 @@ export default function Homess() {
     <>
      
      <section className="py-1 bg-blueGray-600 overflow-hidden">
-        <div className="container mx-auto pb-64">
+        <div className="container mx-auto pb-32">
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
               <i className="fab fa-github text-blueGray-700 absolute -top-150-px -right-100 left-auto opacity-80 text-55"></i>
@@ -50,7 +50,7 @@ export default function Homess() {
         <div className="container mx-auto">
           <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
             <div className="w-full text-center lg:w-8/12">
-              <h3 className="text-5xl mb-2 font-bold leading-normal text-indigo-500">
+              <h3 className="text-5xl mb-2 font-bold leading-normal text-lightBlue-600 quiksand">
                 Why HKS ?
               </h3>
               <div className="text-center mt-16"></div>
@@ -67,11 +67,11 @@ export default function Homess() {
                     />
                   
                 </Link>
-                <h5 className="text-2xl font-bold pb-4 text-center text-indigo-500">
+                <h5 className="text-2xl font-bold pb-4 text-center text-lightBlue-600 nunito">
                   Kualitas Terbaik
                 </h5>
-                <h5 className="text-sm font-bold pb-4 text-center text-black">
-                  Team akan melakukan yang terbaik untuk klean serta mengutamakan kualitas yang tidak merngecewakan klien.
+                <h5 className="text-sl font-bold pb-4 text-center text-black nunit">
+                  Team akan melakukan yang terbaik untuk klien serta mengutamakan kualitas yang tidak merngecewakan klien.
                 </h5>
               </div>
 
@@ -85,10 +85,10 @@ export default function Homess() {
                     />
                   
                 </Link>
-                <h5 className="text-2xl font-bold pb-4 text-center text-indigo-500">
+                <h5 className="text-2xl font-bold pb-4 text-center text-lightBlue-600 nunito">
                   Klien Terpercaya
                 </h5>
-                <h5 className="text-sm font-bold pb-4 text-center text-black">
+                <h5 className="text-sl font-bold pb-4 text-center text-black nunit">
                   klien sepenuhnya bisa mempercayain hizratech sebagai mitranya,serta hizratech siap untuk menyelesaikan kendala yang dihadapi oleh klien.
                 </h5>
               </div>
@@ -103,10 +103,10 @@ export default function Homess() {
                     />
                   
                 </Link>
-                <h5 className="text-2xl font-bold pb-4 text-center text-indigo-500">
+                <h5 className="text-2xl font-bold pb-4 text-center text-lightBlue-600 nunito">
                   Layanan Bervariasi
                 </h5>
-                <h5 className="text-sm font-bold pb-4 text-center text-black">
+                <h5 className="text-sl font-bold pb-4 text-center text-black nunit">
                   Hizratech menyediakan berbagai jasa layanan sesuai dengan kebutuhan klien.
 
                 </h5>

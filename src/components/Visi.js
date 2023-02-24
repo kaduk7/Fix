@@ -1,8 +1,9 @@
 import React from "react";
-
+import Logo2 from './assets/img/visi.jpeg';
 import Logo from './2.png';
 import Footer2 from "./Footer2.js";
 import Footer from './Footer2';
+import './font.css';
 export default function Visi() {
   return (
     <>
@@ -13,7 +14,7 @@ export default function Visi() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80')",
+                "url('https://temp.hizratech.com/static/media/visi.jpeg')",
             }}
           >
             <span
@@ -63,46 +64,46 @@ export default function Visi() {
                   </div>
                 </div>
                 <div className="text-center mt-12">
-                  <h3 className="text-4xl font-bold leading-normal mb-2 text-lightBlue-700 mb-2">
+                  <h3 className="text-4xl font-bold leading-normal mb-2 text-lightBlue-700 mb-2 quiksand">
                     Visi & Misi
                   </h3>
-                  <div className="text-2xl leading-normal mt-0 mb-2 text-lightBlue-700 font-bold uppercase">
+                  <div className="text-2xl leading-normal mt-0 mb-2 text-lightBlue-700 font-bold uppercase nunito">
                     PT. HIZRATECH KONSULTAN SERVIS
                   </div>
                 </div>
                 <div className="container px-4 mx-auto">
                   <div className="text-left mt-12 ">
-                    <div className="text-xl leading-normal mt-0 text-lightBlue-600 font-bold uppercase">
+                    <div className="text-xl leading-normal mt-0 text-lightBlue-600 font-bold uppercase nunit">
                       Visi
                     </div>
-                    <div className=" text-blueGray-600 mt-3">
+                    <div className=" text-blueGray-600 mt-3 nunitos">
                       Terwujudnya pengembangan digital dalam negeri yang dibangun dari kreatifitas bersama secara kompeten, sinergis, profesional,
                     </div>
-                    <div className="mb-2 text-blueGray-600 mt-1">
+                    <div className="mb-2 text-blueGray-600 mt-1 nunitos">
                       dan berdaya saing global.
                     </div>
-                    <div className="text-xl leading-normal mt-5 mb-3 text-lightBlue-600 font-bold uppercase">
+                    <div className="text-xl leading-normal mt-5 mb-3 text-lightBlue-600 font-bold uppercase nunit">
                       Misi
                     </div>
-                    <div className="mb-2 text-blueGray-600">
+                    <div className="mb-2 text-blueGray-600 nunitos">
                       1. Berkontribusi pada kemajuan teknologi di segala bidang. Seperti UMKM, Kesehatan, Pendidikan, Pertanian, dll.
                     </div>
-                    <div className="mb-2 text-blueGray-600">
+                    <div className="mb-2 text-blueGray-600 nunitos">
                       2. Mendukung penuh partisipasi anak muda dalam merealisasikan pengembangan teknologi sesuai dengan perkembangan zaman.
                     </div>
-                    <div className="mb-2 text-blueGray-600">
+                    <div className="mb-2 text-blueGray-600 nunitos">
                       3.  Memberikan solusi yang optimal kepada mitra kerja dalam mengatasi berbagai permasalahan di dunia teknologi informasi.
                     </div>
-                    <div className="mb-2 text-blueGray-600">
+                    <div className="mb-2 text-blueGray-600 nunitos">
                       4.  Menjalin kerjasama yang sinergis dan berkelanjutan.
                     </div>
-                    <div className="mb-2 text-blueGray-600">
+                    <div className="mb-2 text-blueGray-600 nunitos">
                       5.  Memberikan edukasi pengembangan digital yang efektif sebagai pengabdian kepada masyarakat.
                     </div>
-                    <div className="mb-2 text-blueGray-600">
+                    <div className="mb-2 text-blueGray-600 nunitos">
                       6. Memberikan jasa konsultasi dalam meningkatkan kreatifitas, efektivitas, efisiensi, serta produktivitas di bidang teknologi digital.
                     </div>
-                    <div className="mb-2 leading-relaxed text-blueGray-600 ">
+                    <div className="mb-2 leading-relaxed text-blueGray-600 nunitos ">
                       7. Memberikan jasa layanan terbaik dan berkualitas di dukung oleh SDM yang berkompeten di bidangnya.
                     </div>
                   </div>

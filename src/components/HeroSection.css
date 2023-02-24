@@ -73,10 +73,12 @@ video {
 }
 
 .ttttt{
-  display: flex;
+  display: col;
 
     justify-content: left;
     align-items: top;
     margin-top: -100px;
     margin-right: -900px;
+
+    
 }

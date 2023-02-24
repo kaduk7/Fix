@@ -6,7 +6,8 @@ import Teams1 from "@notus-pro/react/Teams1";
 import "@notus-pro/react/tailwind.min.css";
 
 import "./assets/styles/tailwind.css";
-
+import Logo from './assets/img/logo/cew.jpeg';
+import Logo2 from './assets/img/logo/cow.jpeg';
 
 const props = {
   heading3: {
@@ -19,7 +20,7 @@ const props = {
   infoAreas: [
     {
      
-      image: "https://temp.hizratech.com/static/media/2.56dc7d63.png",
+      image: Logo,
       
       name: "Aini Latifa Zanil",
       jobTitle: "Direktur",
@@ -31,7 +32,7 @@ const props = {
       ],
     },
     {
-      image: "/static/media/2.56dc7d63.png",
+      image: Logo,
       name: "Dina Silvia",
       jobTitle: "Sekretaris",
       socialLinks: [
@@ -40,7 +41,7 @@ const props = {
       ],
     },
     {
-      image: "/static/media/2.56dc7d63.png",
+      image: Logo,
       name: "Fatmawati",
       jobTitle: "Supervisor",
       socialLinks: [
@@ -50,7 +51,7 @@ const props = {
       ],
     },
     {
-      image: "/static/media/2.56dc7d63.png",
+      image: Logo2,
       name: "Herman",
       jobTitle: "Head Marketing",
       socialLinks: [
@@ -61,7 +62,7 @@ const props = {
       ],
     },
     {
-      image: "/static/media/2.56dc7d63.png",
+      image: Logo,
       name: "Wahyu Ningsih",
       jobTitle: "Adm & Keuangan",
       socialLinks: [
@@ -72,7 +73,7 @@ const props = {
       ],
     },
     {
-      image: "/static/media/2.56dc7d63.png",
+      image: Logo,
       name: "Dhea Wistafina",
       jobTitle: "Logistic & Warehouse",
       socialLinks: [
@@ -83,7 +84,7 @@ const props = {
       ],
     },
     {
-      image: "/static/media/2.56dc7d63.png",
+      image: Logo2,
       name: "Zul Akmal",
       jobTitle: "Programmer",
       socialLinks: [
@@ -94,7 +95,7 @@ const props = {
       ],
     },
     {
-      image: "/static/media/2.56dc7d63.png",
+      image: Logo2,
       name: "Rizky Yunasrianto",
       jobTitle: "Programmer",
       socialLinks: [
@@ -105,7 +106,7 @@ const props = {
       ],
     },
     {
-      image: "/static/media/2.56dc7d63.png",
+      image: Logo2,
       name: "Khairul Anuar",
       jobTitle: "Programer",
       socialLinks: [
@@ -116,7 +117,7 @@ const props = {
       ],
     },
     {
-      image: "/static/media/2.56dc7d63.png",
+      image: Logo2,
       name: "Muhammad Fahrezy",
       jobTitle: "Teknisi",
       socialLinks: [
@@ -127,7 +128,7 @@ const props = {
       ],
     },
     {
-      image: "/static/media/2.56dc7d63.png",
+      image: Logo2,
       name: "Zaenal Arifin",
       jobTitle: "Teknisi",
       socialLinks: [
@@ -137,17 +138,7 @@ const props = {
         { icon: "whatsapp", link: "#pablo" },
       ],
     },
-    {
-      image: "/static/media/2.56dc7d63.png",
-      name: "Mr. Yoyok",
-      jobTitle: "Kepala Sekolah",
-      socialLinks: [
-        { icon: "instagram", link: "#pablo" },
-        { icon: "facebook", link: "#pablo" },
-        { icon: "twitter", link: "#pablo" },
-        { icon: "dribbble", link: "#pablo" },
-      ],
-    },
+    
   ],
 }
 

@@ -12,6 +12,7 @@ import FooterSmall from "@notus-pro/react/FooterSmall"
 import Projects1 from "@notus-pro/react/Projects1"
 import Testimonials1 from "@notus-pro/react/Testimonials1"
 import Features5 from "@notus-pro/react/Features5"
+import video from './video-1.mp4';
 
 import "@notus-pro/react/tailwind.min.css";
 
@@ -248,7 +249,7 @@ const hero4 = {
 
 
 const headervideotitle = {
-  video: "https://demos.creative-tim.com/notus-pro-react/static/media/Lights - 26607.9ba442f8.mp4",
+  video: video,
   title: "Jasa Layanan Digital",
   subtitle:
     "Anda hanya duduk manis, kami yang membuat website untuk Anda",

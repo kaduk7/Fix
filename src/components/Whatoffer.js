@@ -6,14 +6,14 @@ import Logo3 from './lep.jpg';
 import Blogs8 from "@notus-pro/react/Blogs8"
 
 const props = {
-  heading2: {
-    color: "pink",
-    // subtitle: "About streets",
-    title: "What We Offer",
-    description:
-      " ",
-    alignment: "left",
-  },
+  // heading2: {
+  //   color: "pink",
+  //   // subtitle: "About streets",
+  //   title: "What We Offer",
+  //   description:
+  //     " ",
+  //   alignment: "left",
+  // },
   cards: [
     {
       image: Logo,
@@ -60,6 +60,9 @@ const props = {
 export default function Whatoffer() {
   return (
     <>
+    <div className="text-center mt-5 text-black quiksand" >
+      What Offer
+    </div>
       <Blogs8 {...props} />
     </>
   )

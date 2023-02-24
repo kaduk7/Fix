@@ -6,6 +6,23 @@ import Blogs1 from "@notus-pro/react/Blogs1"
 import "@notus-pro/react/tailwind.min.css";
 
 import "./assets/styles/tailwind.css";
+import Logo from './assets/img/b1.jpg';
+import Logo2 from './assets/img/b2.jpg';
+import Logo3 from './assets/img/b3.jpg';
+import Logo4 from './assets/img/b4.jpg';
+import Logo5 from './assets/img/b5.jpg';
+import Logo6 from './assets/img/b6.jpg';
+import Logo7 from './assets/img/b7.jpg';
+import Logo8 from './assets/img/b8.jpg';
+import Logo9 from './assets/img/b9.jpg';
+import Logo10 from './assets/img/b10.jpg';
+import Logo11 from './assets/img/b11.jpg';
+import Logo12 from './assets/img/b12.jpg';
+import Logo13 from './assets/img/b13.jpg';
+import Logo14 from './assets/img/b14.jpg';
+import Logo15 from './assets/img/b15.jpg';
+import Logo16 from './assets/img/b16.jpg';
+
 const props = {
   heading3: {
     color: "emerald",
@@ -17,112 +34,112 @@ const props = {
   },
   cards: [
     {
-        image: "/static/media/b13.jpg",
+        image: Logo,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b14.jpg",
+        image: Logo2,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b15.jpg",
+        image: Logo3,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b16.jpg",
+        image: Logo4,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b1.jpg",
+        image: Logo5,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b2.jpg",
+        image: Logo6,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b3.jpg",
+        image: Logo7,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b4.jpg",
+        image: Logo8,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b5.jpg",
+        image: Logo9,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b6.jpg",
+        image: Logo10,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b7.jpg",
+        image: Logo11,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b8.jpg",
+        image: Logo12,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b9.jpg",
+        image: Logo13,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b10.jpg",
+        image: Logo14,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b11.jpg",
+        image: Logo15,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",
         link: { href: "#pablo" },
       },
       {
-        image: "/static/media/b12.jpg",
+        image: Logo16,
         // subtitle: "Work from Home",
         // title: "How meetings and behaviour are changing",
         size: "sm",

@@ -1,20 +1,12 @@
 /*eslint-disable*/
 import React from "react";
-import { Link } from "react-router-dom";
-
 import Teams1 from "@notus-pro/react/Teams1";
 import Logo from './Black & Orange Minimal Startup H Letter Business Logo (1).png';
-
-
-//import 'Sl.css';
-
-
+import './font.css';
 
 export default function Homess() {
   return (
     <>
-     
-
       <section className="mt-1 md:mt-40 pb-40 relative bg-blueGray-100">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
@@ -41,10 +33,10 @@ export default function Homess() {
               <div className="items-center flex flex-wrap">
                 <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
                   <div className="md:pr-12">
-                    <h3 className="text-5xl font-bold text-lightBlue-600">
+                    <h3 className="text-5xl font-bold text-lightBlue-600 quiksand">
                       HIZRATECH?
                     </h3>
-                    <p className="mt-4 text-3xl leading-relaxed text-blueGray-500">
+                    <p className="mt-4 text-3xl leading-relaxed text-blueGray-500 nunito">
                       Hizratech adalah
                       perusahaan yang
                       bergerak dalam
