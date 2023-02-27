@@ -12,7 +12,6 @@ import FooterSmall from "@notus-pro/react/FooterSmall"
 import Projects1 from "@notus-pro/react/Projects1"
 import Testimonials1 from "@notus-pro/react/Testimonials1"
 import Features5 from "@notus-pro/react/Features5"
-import video from './video-1.mp4';
 
 import "@notus-pro/react/tailwind.min.css";
 
@@ -88,30 +87,30 @@ const projects1 = {
           "Setelah berkonsultasi, selanjutnya Anda bisa memesan jasa pembuatan website kami.",
         link: { href: "#pablo", children: "Check more" },
       },
-      {
-        icon: "fas fa-paper-plane",
-        color: "red",
-        title: "Pengiriman Konten",
-        description:
-          "Setelah memesan, Anda bisa mengirim konten untuk kebutuhan website, seperti logo jika dibutuhkan.",
-        link: { href: "#pablo", children: "Check more" },
-      },
+      // {
+      //   icon: "fas fa-paper-plane",
+      //   color: "red",
+      //   title: "Pengiriman Konten",
+      //   description:
+      //     "Setelah memesan, Anda bisa mengirim konten untuk kebutuhan website, seperti logo jika dibutuhkan.",
+      //   link: { href: "#pablo", children: "Check more" },
+      // },
       {
         icon: "fas fa-tools",
         color: "blueGray",
-        title: "Pembuatan Website",
+        title: "Pembuatan Sistem Digital",
         description:
-          "Setelah mengirim konten, biarkan kami yang membuat website nya untuk Anda. Anda tinggal duduk manis saja.",
+          "Setelah mengirim konten, biarkan kami yang membuat Sistem Digital nya untuk Anda. Anda tinggal duduk manis saja.",
         link: { href: "#pablo", children: "Check more" },
       },
-      {
-        icon: "fas fa-file-upload",
-        color: "orange",
-        title: "Upload Website",
-        description:
-          "Kami akan mengupload nya ke hosting dan domain yang Anda pilih sehingga website Anda sudah bisa diakses.",
-        link: { href: "#pablo", children: "Check more" },
-      },
+      // {
+      //   icon: "fas fa-file-upload",
+      //   color: "orange",
+      //   title: "Upload Website",
+      //   description:
+      //     "Kami akan mengupload nya ke hosting dan domain yang Anda pilih sehingga website Anda sudah bisa diakses.",
+      //   link: { href: "#pablo", children: "Check more" },
+      // },
       {
         icon: "fas fa-universal-access",
         color: "teal",
@@ -167,19 +166,19 @@ const projects1 = {
       {
         icon: "fas fa-campground",
         color: "emerald",
-        title: "Gratis Maintenance",
-        description:
-          "Jasa pembuatan website kami menyediakan gratis maintenance. Kami akan memastikan website Anda berjalan dengan baik dan aman dari serangan hacker.",
-        button: { color: "emerald", children: "Learn more" },
-      },
-      {
-        icon: "fab fa-telegram-plane",
-        color: "red",
-        title: "Sesuai Keinginan",
+        title: "Sesuai Kebutuhan",
         description:
           "Anda ingin fitur tambahan pada website Anda? Tentu, kami bisa membuat website dengan fitur sesuai dengan yang Anda inginkan.",
-        button: { color: "red", children: "Learn more" },
+        button: { color: "emerald", children: "Learn more" },
       },
+      // {
+      //   icon: "fab fa-telegram-plane",
+      //   color: "red",
+      //   title: "Sesuai Kebutuhan",
+      //   description:
+      //     "Anda ingin fitur tambahan pada website Anda? Tentu, kami bisa membuat website dengan fitur sesuai dengan yang Anda inginkan.",
+      //   button: { color: "red", children: "Learn more" },
+      // },
     ],
   }
 
@@ -249,7 +248,7 @@ const hero4 = {
 
 
 const headervideotitle = {
-  video: video,
+  
   title: "Jasa Layanan Digital",
   subtitle:
     "Anda hanya duduk manis, kami yang membuat website untuk Anda",

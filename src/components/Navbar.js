@@ -164,6 +164,18 @@ function Navbar() {
             </div>
             </Link>
           </li>
+          <li className='nav-item'>
+            <Link
+              to='/Kontak-kami'
+              className='nav-links fas fa-phone-alt'
+              onClick={closeMobileMenu}
+            >
+              <i>  </i>
+              <div className='josefin' >
+            Kontak Kami
+            </div>
+            </Link>
+          </li>
           {/* <li>
             <Link
               to='/sign-up'

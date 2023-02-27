@@ -13,6 +13,7 @@ import Ourservice from './components/pages/OurService';
 
 import FAQ from './components/pages/FAQ';
 import Official from './components/pages/Official';
+import Kontak from './components/Kontak';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/Gallery2' component={Gallery} />
           <Route path='/Service' component={Ourservice} />
           <Route path='/FAQ' component={FAQ} />
+          <Route path='/Kontak-kami' component={Kontak} />
           <Route path='/Official-partner' component={Official} />
         </Switch>
       </Router>
