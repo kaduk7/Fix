@@ -172,7 +172,7 @@ function Navbar() {
             >
               <i>  </i>
               <div className='josefin' >
-            Kontak Kami
+            Kontak
             </div>
             </Link>
           </li>
